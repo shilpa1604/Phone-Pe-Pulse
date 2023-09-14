@@ -10,8 +10,8 @@ import plotly.express as px
 # Creating connection to MySQL PhonePe database
 
 
-user = 'root'
-password = 'shilpa1642'
+user = ???
+password = ???
 host = 'localhost'
 database = 'PhonePe'
 
@@ -22,11 +22,11 @@ connection = pymysql.connect(host=host,
 
 cursor = connection.cursor()
 
-st.set_page_config(page_title="Phonepe Pulse Data Visualization | By Jafar Hussain",
+st.set_page_config(page_title="Phonepe Pulse Data Visualization | By Shilpa Gupta",
 
                    layout="wide",
                    initial_sidebar_state="expanded",
-                   menu_items={'About': """# This dashboard app is created by *Jafar Hussain*!
+                   menu_items={'About': """# This dashboard app is created by *Shilpa Gupta*!
                                         Data has been cloned from Phonepe Pulse Github Repo"""})
 
 st.markdown("""
@@ -37,9 +37,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown(""" <style> .font {
-font-size:50px ; font-family: 'Cooper Black'; color: black;background-color:#fdf5e6} 
-</style> """, unsafe_allow_html=True)
+
 
 st.title(':violet[**_PhonePe Pulse_**]')
 
