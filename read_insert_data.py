@@ -19,7 +19,7 @@ engine = create_engine(
         user, password, host, database
     )
 )
-custom_path ='C:\\Users\\Dell\\PycharmProjects'
+custom_path ='C:\\Users\\Dell\\PycharmProjects'  # mention the path where github repository is cloned.
 # Fetch all the states and years data available
 path = f'{custom_path}\\pulse\\data\\aggregated\\transaction\\country\\india\\state'
 states = os.listdir(path)
